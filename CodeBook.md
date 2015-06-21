@@ -52,7 +52,7 @@ There are three of each XYZ numeric variables separated by X, Y, and Z and also 
 |fBodyGyroJerkMag | numeric |Body Gyro Jerk Signal Magnitude in frequency domain |
 
 
-There are two copies of each variables for mean and std functions.
+There are two of each variables for mean and std functions.
 
 **All values are normalised to range between -1 to 1 for analysis**.
 
