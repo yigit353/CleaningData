@@ -22,10 +22,42 @@ Raw data codebook can be found [here](http://archive.ics.uci.edu/ml/datasets/Hum
 > Subsequently, the body linear acceleration and **angular velocity** were derived in time to obtain **Jerk signals** (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the **Euclidean norm** (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 > Finally a **Fast Fourier Transform (FFT)** was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (**Note the 'f' to indicate frequency domain signals**). 
 
-Only mean and standard deviation of these variables are selected. For each variable there are XYZ dimensions.
+Only mean and standard deviation of these variables are selected. 
 
-There are also;
+| Variable           | Type   | Description |
+|:--------------------|:---------|:----------------|
+|tBodyAcc-XYZ   | XYZ numeric | Body Acceleration in time domain |
+|tGravityAcc-XYZ | XYZ numeric | Gravity Acceleration in time Domain |
+|tBodyAccJerk-XYZ | XYZ numeric | Body Acc. Jerk Signal in time domain | 
+|tBodyGyro-XYZ | XYZ numeric | Body Gyro in time domain |
+|tBodyGyroJerk-XYZ | XYZ numeric | Body Gyro Jerk Signal in time domain |
+|fBodyAcc-XYZ | XYZ numeric | Body Acceleration in frequency domain |
+|fBodyAccJerk-XYZ | XYZ numeric | Body Acc. Jerk Signal in frequency domain |
+|fBodyGyro-XYZ | XYZ numeric | Body Gyro in frequency domain |
+
+There are three of each XYZ numeric variables separated by X, Y, and Z and also by mean and std functions.
+
+| Variable           | Type   | Description |
+|:--------------------|:---------|:----------------|
+|tBodyAccMag | numeric | Body Acceleration Magnitude in time domain |
+|tGravityAccMag | numeric | Gravity Acc. Magnitude in time domain | 
+|tBodyAccJerkMag | numeric | Body Acc. Jerk Signal Magnitude in time domain | 
+|tBodyGyroMag | numeric | Body Gyro Magnitude in time domain | 
+|tBodyGyroJerkMag | numeric | Body Gyro Jerk Signal Magnitude in time domain | 
+|fBodyAccMag | numeric | Body Acceleration Magnitude in frequency domain |
+|fBodyAccJerkMag | numeric | Body Acc. Jerk Signal Magnitude in frequency domain |
+|fBodyGyroMag | numeric | Body Gyro Magnitude in frequency domain |
+|fBodyGyroJerkMag | numeric |Body Gyro Jerk Signal Magnitude in frequency domain |
+
+
+There are two copies of each variables for mean and std functions.
+
+**All values are normalised to range between -1 to 1 for analysis**.
+
+There are also two more variables;
 
 | Variable           | Type   | Description |
 |:--------------------|:---------|:----------------|
 | activityName   | string  | 1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING 5 STANDING 6 LAYING |
+| subject            | numeric | 1 - 30, volunteer id |
+
