@@ -37,3 +37,4 @@ new.data <- aggregate(combined.data, FUN = mean,
 new.data$activityName <- NULL
 new.data$subject <- NULL
 colnames(new.data)[1:2] <- c("activityName", "subject")
+write.table(x = new.data, file = "tidyData.txt", row.names = FALSE)
