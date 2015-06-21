@@ -1,4 +1,4 @@
-dataset.dir <- "./UCI HAR Dataset"
+dataset.dir <- "UCI HAR Dataset"
 
 get.path <- function(path) paste(dataset.dir, path, sep = "/")
 
