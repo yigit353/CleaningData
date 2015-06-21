@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the course project for cleaning Samsung activity[data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The goal of this project is to merge, clean and name the fields of the activity data so that it can be used for other data science tasks. Also a tidy data set is created for demonstration purposes.
+This is the course project for cleaning Samsung activity [data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The goal of this project is to merge, clean and name the fields of the activity data so that it can be used for other data science tasks. Also a tidy data set is created for demonstration purposes.
 
 ## Raw Data
 
